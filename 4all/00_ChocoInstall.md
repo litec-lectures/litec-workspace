@@ -35,15 +35,48 @@ version: 0.1 - so expect some hiccups
 
    - What is chocolatey? A package manager.
    - Basic usage of chocolatey.
-   - Recommended Software packages you can install with choco.
+   - Recommended Software packages to install with `choco`.
 
-## Chocolatey - Package Manager
+### Chocolatey - Package Manager
 
-To ensure that al students have the same setup on their computers, a package manager like chocolatey is a time- and life-safer.
+To ensure that all students have the same setup on their computers, a package manager like chocolatey is a time- and life-safer.
 
 > A **package manager** or **package-management system** is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer's operating system in a consistent manner.[^wikipedia]
 >
 > [^wikipedia]:https://en.wikipedia.org/wiki/Package_manager
 
-In the future we might switch to `winget`, but the project is too young yet.
+In the future we might switch to [`winget`](https://github.com/microsoft/winget-cli), but the project is too young yet.
+
+If you want to find out more about `chocolatey` visit [Chocolatey Software | Courses](https://community.chocolatey.org/courses).
+
+### Basic `choco` Commands
+
+For a full list see [Chocolatey Software Docs | Commands](https://docs.chocolatey.org/en-us/choco/commands/).
+
+Most important commands:
+
+```powershell
+# searching for a given software package:
+choco list <packagename>
+
+# list all locally installed packages (managed by chocolatey)
+choco list -la
+
+# list all locally installed packages
+choco list -lai
+
+# install a package
+choco install <packagename> -y
+
+# uninstall a package
+choco uninstall <packagename> -y
+```
+
+### Some Recommended Packages
+
+```powershell
+choco install 7zip chocolateygui firefox irfanview vlc -y
+```
+
+
 
