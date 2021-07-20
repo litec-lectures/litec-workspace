@@ -1,11 +1,11 @@
 ---
 author: hasp
-date: 20210719
-topics: setup, win, chocolatey
+date: 20210720
+topics: setup, win, git
 version: 0.1 - so expect some hiccups
 ---
 
-# Chocolatey Installation
+# GIT
 
 ## Setup
 
@@ -14,30 +14,36 @@ version: 0.1 - so expect some hiccups
 2. Run the following command within the console:
 
    ```powershell
-   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+   choco install git -y
    ```
-
-   In case of an error you might want to visit the chocolatey webpage directly, and copy the install command from there: <https://chocolatey.org/install/>.
 
 3. Close and reopen the  elevated PowerShell console.
 
-4. Install the ALWAYS needed packages, by running the following command:
+4. Perform the 2 commands (replace`<fullname>` with your name (whitespaces are ok), and `<email>` with the given school email address).
 
    ```powershell
-   choco install vscode typora -y
+   git config --global user.name "<fullname>"
+   git config --global user.email "<email>"
    ```
 
-   Those two packages are great editors - one for markdown (`typora`) and one for EVERTHING (`vscode`). The `-y` on the end means that any questions during the installation process are answered with "yes".
+   More information on a first setup can be found on: [First Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
 
-5. Your are DONE!
+5. Your are (nearly) DONE!
 
 6. Read on, if you want to know:
 
-   - What is chocolatey? A package manager.
-   - Basic usage of chocolatey.
-   - Recommended Software packages to install with `choco`.
+   - What is git? A version control system.
+   - Basic usage of git.
+   - Usage of github.com.
 
-## Chocolatey - Package Manager
+## Git - Version Control System
+
+---
+
+**UNFINISHED!** (all below is not yet written for git - just a copy from choco setup!)
+@TDB add gh cli!
+
+---
 
 To ensure that all students have the same setup on their computers, a package manager like chocolatey is a time- and life-safer.
 
@@ -45,11 +51,9 @@ To ensure that all students have the same setup on their computers, a package ma
 >
 > [^wikipedia]:https://en.wikipedia.org/wiki/Package_manager
 
-In the future we might switch to [`winget`](https://github.com/microsoft/winget-cli), but the project is too young yet.
-
 If you want to find out more about `chocolatey` visit [Chocolatey Software | Courses](https://community.chocolatey.org/courses).
 
-## Basic `choco` Commands
+### Basic `git` Commands
 
 For a full list of commands see [Chocolatey Software Docs | Commands](https://docs.chocolatey.org/en-us/choco/commands/).
 
@@ -79,7 +83,7 @@ choco upgrade all -y
 choco uninstall <packagename> -y
 ```
 
-### Some Recommended Packages
+### GitHub
 
 ```powershell
 choco install 7zip chocolateygui firefox irfanview vlc -y
