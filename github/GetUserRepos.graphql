@@ -1,0 +1,23 @@
+query GetUserRepos(
+  $userName: String!,
+  $endCursor: String,
+  ) {
+  rateLimit{
+    cost
+    remaining
+    resetAt
+  } 
+  user(login: $userName ) { 
+    repositories(first:100, after: $endCursor, ownerAffiliations: OWNER) { 
+      totalCount
+      nodes { 
+        name
+        url
+      } 
+      pageInfo {
+        endCursor
+        hasNextPage
+      }
+    } 
+  } 
+}

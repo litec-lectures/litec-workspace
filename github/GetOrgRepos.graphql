@@ -1,0 +1,25 @@
+query GetOrgRepos(
+  $organization: String!,
+  $endCursor: String
+  ) {
+  rateLimit{
+    cost
+    remaining
+    resetAt
+  }
+  organization(login: $organization) {
+    name
+    url
+    repositories(first:100, after: $endCursor ) {
+      totalCount
+      nodes {
+        nameWithOwner
+        url
+      }
+      pageInfo {
+        endCursor
+        hasNextPage
+      }
+    }
+  }
+}
