@@ -9,11 +9,11 @@ Param (
 
 Import-Module -Name PowerShellForGitHub
 
-# Default the backup directory to './YYYY-MM-DD'. This can
+# Default the backup directory to './YYYYMMDD'. This can
 # not be done in the Param section because $PSScriptRoot
 # will not be resolved if this script gets invoked from cmd.
 if (!$backupDirectory) {
-    $backupDirectory = $(Join-Path -Path "$PSScriptRoot" -ChildPath $(Get-Date -UFormat "%Y-%m-%d"))
+    $backupDirectory = $(Join-Path -Path "$PSScriptRoot" -ChildPath $(Get-Date -UFormat "%Y%m%d"))
 }
 
 # Measure the execution time of the backup script.
