@@ -34,15 +34,15 @@ If you read somewhere within the text a formulation like *"open a powershell con
 
 Recommended order of documents to work through:
 
-1. [Install Chocolatey](./00_ChocoInstall.md)
-2. [Install and Setup GIT](@tbd)
-3. [Setup VS Code](@tbd)
-4. [OPTIONAL] [Setup Visual Studio](@tbd)
-5. [OPTIONAL] [Setup WSL2](@tbd)
+0. [Install Chocolatey](./00_ChocoInstall.md)
+1. [Install and Setup GIT](./01_GitSetup.md)
+2. [Setup VS Code](@tbd)
+3. [OPTIONAL] [Setup Visual Studio](@tbd)
+4. [OPTIONAL] [Setup WSL2](@tbd)
    - <https://docs.microsoft.com/en-us/windows/wsl/install-win10/>
    - <https://docs.microsoft.com/en-us/powershell/module/dism/enable-windowsoptionalfeature?view=windowsserver2019-ps/>
    - <https://linh-b-ngo.medium.com/setup-podman-on-windows-c36fa5925403/>
-6. [OPTIONAL] [Setup Docker](@tbd)
+5. [OPTIONAL] [Setup Docker](@tbd)
 
 ## TODO
 

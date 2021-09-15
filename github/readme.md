@@ -1,5 +1,9 @@
 # GitHub Repository Tools and Infos
 
+The information contained in this document (and this folder) is intended for "administrational" usage.
+If you want to backup/clone all your repositories or that of an organization - this is the right place for you.
+Otherwise you can just leave here without any regrets...
+
 ## Used Links
 
 ### Backup / Transfer
