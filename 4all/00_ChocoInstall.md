@@ -82,5 +82,5 @@ choco uninstall <packagename> -y
 ### Some Recommended Packages
 
 ```powershell
-choco install 7zip chocolateygui firefox irfanview vlc -y
+choco install 7zip chocolateygui -y
 ```
