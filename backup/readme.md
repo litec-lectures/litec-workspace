@@ -1,3 +1,9 @@
+---
+author: hasp
+date: 20210918
+version: 0.2
+draft: true
+---
 # GitHub Repository Tools and Infos
 
 The information contained in this document (and this folder) is intended for "administrational" usage.

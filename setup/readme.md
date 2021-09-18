@@ -1,8 +1,8 @@
 ---
 author: hasp
-date: 20210719
-topics: setup, win, chocolatey, git
-version: 0.1 - so expect some hiccups
+date: 20210918
+topics: setup, win, chocolatey, git, IDE, CLI
+version: 0.2
 draft: true
 ---
 

@@ -1,9 +1,9 @@
 ---
 author: hasp
-date: 20210719
+date: 20210918
 topics: setup, win, chocolatey
-version: 0.1 - so expect some hiccups
-draft: true
+version: 0.2
+draft: false
 ---
 
 # Chocolatey Installation

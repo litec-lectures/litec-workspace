@@ -1,8 +1,9 @@
 ---
 author: hasp
-date: 20210917
-version: 0.1
-draft: true
+date: 20210918
+topics: computer setup, package manager, editor, git, IDE, CLI
+version: 0.2
+draft: false
 ---
 
 # LiTec Workspace Setup Information
