@@ -24,7 +24,7 @@ draft: true
 
 3. Close and reopen the  elevated PowerShell console.
 
-4. Perform the following two  commands - replace`<fullname>` with your name (whitespaces are ok), and `<email>` with your LiTec(!) email address.
+4. Perform the following two  commands - replace `<fullname>` with your name (whitespaces are ok), and `<email>` with your LiTec email address.
 
    ```powershell
    git config --global user.name "<fullname>"
@@ -45,7 +45,7 @@ draft: true
 
 ### Create a Github-User (LiTec)
 
-1. Visit [Github.com](https://github.com), and enter your LiTec(!) email address, and press the `Sign up for GitHub`-Button.
+1. Visit [Github.com](https://github.com), and enter your LiTec email address, and press the `Sign up for GitHub`-Button.
 2. Create a good password! 
    - Info on password creation: [xkcd pasword strength](https://xkcd.com/936/) - a bit dated, but still valid!
    - Use pass phrases that are at a MINIMUM 16 (or even better 20+ letters long).
