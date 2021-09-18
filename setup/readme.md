@@ -12,7 +12,7 @@ This folder contains information on how to setup a school notebook for your work
 
 ---
 
-> **See [readme.md](../readme.md) of the root folder on the order of how to setup your computer.**
+> **See [README.md](../README.md) of the root folder on the order of how to setup your computer.**
 
 ---
 
