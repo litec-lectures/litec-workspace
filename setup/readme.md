@@ -8,7 +8,7 @@ draft: true
 
 # `Setup`-Folder
 
-This folder contains information on how to setup a school notebook for your work at the Linzer Technikum. The intended audience is the "IT crowd", but it also might be used by any other LiTec teacher or student.
+This folder contains information on how to setup a school notebook for your work at the Linzer Technikum. The intended audience is the "IT-crowd", but it also might be used by any other LiTec teacher or student (or visitor of this repository).
 
 ---
 
@@ -16,17 +16,14 @@ This folder contains information on how to setup a school notebook for your work
 
 ---
 
-## Things 2look@ in Your Spare Time 
+## Things 2look@ in Your Spare Time
 
 - Learn!
+  - [Learn Enough Text Editor to Be Dangerous](https://www.learnenough.com/text-editor-tutorial)
   - [Learn Enough Dev Environment to Be Dangerous](https://www.learnenough.com/dev-environment-tutorial)
   - [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial)
   - [Command Line Introduction (sebhastian.com)](https://sebhastian.com/command-line-introduction/)
-  - [Learn Enough Text Editor to Be Dangerous](https://www.learnenough.com/text-editor-tutorial)
-
 - Laugh!
   - [xkcd: Tech Support Cheat Sheet](https://m.xkcd.com/627/)
-- Be Amazed! 
-  -  [Tau Day | No, really, pi is wrong: The Tau Manifesto by Michael Hartl](https://tauday.com/tau-manifesto)
-
-
+- Be Amazed!
+  - [Tau Day | No, really, pi is wrong: The Tau Manifesto by Michael Hartl](https://tauday.com/tau-manifesto)
