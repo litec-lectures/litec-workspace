@@ -12,7 +12,7 @@ draft: false
 
 1. Open an elevated PowerShell console.
 
-2.  Copy and paste the following command to the powershell console and start it by pressing the `return`-button:
+2.  Copy and paste the following command to the powershell console and start by pressing the `return`-button:
 
    ```powershell
    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
