@@ -39,9 +39,9 @@ The typical IT student of the Linzer Technikum is going to use the following too
 
 ## 2 Mandatory Basic Knowledge
 
-### 2.1 "Elevated PowerShell Console"
+### 2.1 WtH (What the Hell) is an "*Elevated PowerShell Console*"?
 
-If you read anywhere within the text a phrase like *"open a powershell console as administrator"*, *"start an elevated powershell console"*, or *"within an elevated powershell console"*, then you need to perform the following steps:
+If you read anywhere within the text a phrase like *"open a powershell console as administrator"*, *"start an elevated powershell console"*, or *"within an elevated powershell console"* - then you need to perform the following steps:
 
 1. Right Click on the Windows Start-Menu Icon - normally positioned at the bottom left of your Windows 10 system.
 2. Choose `WindowsPowerShell (Admin)` entry of the context menu.
@@ -54,21 +54,23 @@ If you read anywhere within the text a phrase like *"open a powershell console a
 
 ---
 
+> BE PREPARED TO WORK WITH CLI (COMMAND LINE INTERFACES)!
+
+---
+
 ## 3 Setup
 
 1. Start with [Chocolatey setup](./setup/00_ChocoInstall.md) - the installation guide for the package manager.
    - It also contains information about the base packages everyone needs (e.g. Typora and vscode).
 2. After that it depends on the grade you are in:
-   - **2nd grade students** perform all steps of the following documents:
+   - **2nd grade students** - perform all steps of the following documents:
      - [Git and github setup](./setup/01_GitSetup.md)
      - [Visual Studio setup](./setup/02_VisualStudioSetup.md)
-   - **3rd grade students**:
-     - check if you got all from 2nd grade, and additionally
+   - **3rd grade students** - check if you got all from 2nd grade, and additionally:
      - [Visual Studio Code setup](./setup/03_VsCodeSetup.md)
      - [Java Development Setup](@tbd) **@tbd**
      - [Arduino Setup](@tbd) **@tbd**
-   - **4th and 5th grade students** 
-     - check if you got all from the previous years and then perform
+   - **4th and 5th grade students** - check if you got all from the previous years and then perform:
      - [Android Development Setup](@tbd) **@tbd**
      - [Docker Setup](@tbd) **@tbd**
 
@@ -76,5 +78,6 @@ If you read anywhere within the text a phrase like *"open a powershell console a
 
 Some recommended links to various topics:
 
+- CLI - Command Line Usage: [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial/basics)
 - Windows 10 App cleanup: [Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
 - more stuff might follow...
