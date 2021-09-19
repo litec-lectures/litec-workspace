@@ -106,8 +106,8 @@ Ok, lets use the generated token - it will be used everytime you copy data from 
 
 ## WtH (What the Hell) is Git and GitHub?
 
-> **UNFINISHED!** @tbd
+For in-depth information on git and github visit the public repository [git-intro of HASP](https://github.com/litec-hasp/git-intro).
 
-At the moment visit the public repository [git-intro of HASP](https://github.com/litec-hasp/git-intro) to learn more about git and github.
+A german short explantion: an absolutely [*MINI* cheat sheet](./../cheat-sheets/Git-MiniCheatSheet[ger].md) - this is just for short reminders on what to do on your daily routine.
 
 ---
