@@ -85,7 +85,9 @@ choco upgrade all -y
 choco uninstall <packagename> -y
 ```
 
-### Recommended Package(s)
+## Recommended Package(s)
+
+### Chocolatey GUI
 
 If you need a graphical representation of the chocolatey installer perform the following command within an elevated powershell console:
 
@@ -96,3 +98,15 @@ choco install chocolateygui -y
 After that you can use the Chocolatey GUI instead of the command line if you are the visual type. Just type `chocolatey gui` within your search field of the taskbar and start the application.
 
 Follow [this guide](https://m.xkcd.com/627/) to learn about the usage of `chocolatey gui`.
+
+### Virtualization
+
+For management and creation of VMs (Virtual Machines):
+
+```powershell
+choco install vmware-workstation-player -y
+```
+
+
+
+
