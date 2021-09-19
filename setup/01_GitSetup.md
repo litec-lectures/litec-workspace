@@ -76,7 +76,7 @@ You are not done yet! For external access to your github repositories you need t
 5. Give the token a name like `Auth-Token`, set Expiration to 1 year (choose `custom` and select date 365 day in the future).
 6. Just click on the `repo` checkbox - that's sufficient for your first PAT - which will also select all repo access checkboxes right below.
 7. Scroll down and click `Generate Token`.
-8. Copy the generated cryptic token string (it starts like `ghp_<lost of letters and numbers>`) and store it in your password safe (or for direct use in your clipboard). You won't have access to that string later, so donn't loose it. However, you can generate new tokens any time you want.
+8. Copy the generated cryptic token string (it starts like `ghp_<lost of letters and numbers>`) and store it in your password safe (or for direct use in your clipboard). You won't have access to that string later, so do not loose it. However, you can generate new tokens any time you like.
 
 Ok, lets use the generated token - it will be used everytime you copy data from github to your computer (clone, fetch, pull), or send data to github (push). But you need to store it just once in the Windows Credential Manager. We will show you how:
 
@@ -93,7 +93,7 @@ Ok, lets use the generated token - it will be used everytime you copy data from 
    - first command `cd ~` (change directory) switches you to your home directory
    - 2nd command `mkdir` (make directory) creates a new folder in your home directory called `repos` (short for repositories)
    - 3rd command `cd repos` switches to the repos directory
-   - 4th commanf `git clone ...` copies/clones this repository you are currently looking at to your computer in the folder `repos`
+   - 4th command `git clone ...` copies/clones this repository you are currently looking at to your computer in the folder `repos`
 
 2. After the last step a small github window should pop up asking for your credentials, and you fill out the empty field with your personal access token (hopefully still in the clipboard!). If you no longer have your token, you just need to create a new one (follow steps above).
 3. Finally! Now we are really DONE!
@@ -108,6 +108,6 @@ Ok, lets use the generated token - it will be used everytime you copy data from 
 
 For in-depth information on git and github visit the public repository [HASP's git-intro](https://github.com/litec-hasp/git-intro) - a bit dated, but still ok.
 
-A german short explantion: an absolutely [*MINI* cheat sheet](./../cheat-sheets/Git-MiniCheatSheet[ger].md) - this is just for short reminders on what to do on your daily routine.
+A short explantion in german: an absolutely [*MINI* cheat sheet](./../cheat-sheets/Git-MiniCheatSheet[ger].md) - this is just for short reminders on what to do on your daily routine.
 
 ---
