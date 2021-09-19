@@ -1,8 +1,9 @@
 ---
 author: hasp
-date: 20210915
+date: 20210919
 topics: setup, win, visual studio
-version: 0.1 - so expect some hiccups
+version: 0.2
+draft: true
 ---
 
 # Visual Studio Setup
@@ -19,4 +20,3 @@ choco install visualstudio2019-workload-manageddesktopbuildtools -y
 ```
 
 See also [Git on VS](https://github.com/litec-hasp/git-intro/blob/master/99_git-on-VS.md)
-
