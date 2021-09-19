@@ -56,7 +56,7 @@ If you read anywhere within the text a phrase like *"open a powershell console a
 
 ---
 
-> BE PREPARED TO WORK WITH CLI (COMMAND LINE INTERFACES)!
+> **BE PREPARED TO WORK WITH A *CLI* (COMMAND LINE INTERFACE)!**
 
 ---
 
@@ -66,15 +66,15 @@ If you read anywhere within the text a phrase like *"open a powershell console a
    - It also contains information about the base packages everyone needs (e.g. Typora and vscode).
 2. After that it depends on the grade you are in:
    - **2nd grade students** - perform all steps of the following documents:
-     - [Git and github setup](./setup/01_GitSetup.md)
+     - [Git and GitHub setup](./setup/01_GitSetup.md)
      - [Visual Studio setup](./setup/02_VisualStudioSetup.md)
    - **3rd grade students** - check if you got all from 2nd grade, and additionally:
      - [Visual Studio Code setup](./setup/03_VsCodeSetup.md)
-     - [Java Development Setup](@tbd) **@tbd**
-     - [Arduino Setup](@tbd) **@tbd**
+     - [Java Development Setup](./setup/04_JavaSetup.md)
+     - [Arduino Setup](./setup/05_ArduinoSetup.md)
    - **4th and 5th grade students** - check if you got all from the previous years and then perform:
-     - [Android Development Setup](@tbd) **@tbd**
-     - [Docker Setup](@tbd) **@tbd**
+     - [Android Development Setup](./setup/06_AndroidSetup.md)
+     - [Docker Setup](./setup/07_DockerSetup.md)
 
 ## 4 Additional Content and Recommendations
 
