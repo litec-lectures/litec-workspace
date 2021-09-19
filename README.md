@@ -62,7 +62,8 @@ If you read anywhere within the text a phrase like *"open a powershell console a
 
 ## 3 Setup
 
-1. Start with [Chocolatey setup](./setup/00_ChocoInstall.md) - the installation guide for the package manager.
+0. Check if your Window 10 Version is 20H2 or newer - if not perform a [Windows update](https://support.microsoft.com/en-us/windows/update-windows-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a).
+1. Now start with [Chocolatey setup](./setup/00_ChocoInstall.md) - the installation guide for the package manager.
    - It also contains information about the base packages everyone needs (e.g. Typora and vscode).
 2. After that it depends on the grade you are in:
    - **2nd grade students** - perform all steps of the following documents:

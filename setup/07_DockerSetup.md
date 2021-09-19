@@ -64,3 +64,7 @@ If you are going to join my crew - start up VS Code - it worth the trip.
 7. And now be "WOW"-ed! (and learn some [Italian...](https://www.wordhippo.com/what-is/the-meaning-of/italian-word-sbalorditivo.html))
 
 ![img](https://media1.tenor.com/images/b7de07ee62442f41159683ed98ea6a13/tenor.gif)
+
+---
+
+For an in-depth introduction to docker see [HASP's docker-intro](https://github.com/litec-hasp/docker-intro) - a bit dated but still ok.
