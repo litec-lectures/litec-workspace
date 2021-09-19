@@ -1,7 +1,7 @@
 ---
 author: hasp
-date: 20210918
-topics: setup, win, git
+date: 20210919
+topics: setup, win, git, github
 version: 0.2
 draft: true
 ---
@@ -60,7 +60,44 @@ draft: true
 6. Check your email for a validation code, and enter it in the next step.
 7. Press `Continue`a few times (feel free not to answer any questions), and at last choose the free account.
 8. DONE! You are now a member of the github community.
-9. Also, read on, if you want to know:
+
+---
+
+## Personal Access Token (PAT) for GitHub
+
+**Ok, ok, I confess - I lied!**
+
+You are not done yet! For external access to your github repositories you need to setup a PAT (Personal Access Token) for authentication.
+
+1. (Re)visit github.com (sign in - if you aren't already), and click on the upper right corner on your avatar.
+2. Choose `Settings`.
+3. On the left menu panel you find the entry `Developer settings` (click that), and then choose `Personal access token`.
+4. Click `Generate new token`.
+5. Give the token a name like `Auth-Token`, set Expiration to 1 year (choose `custom` and select date 365 day in the future).
+6. Just click on the `repo` checkbox - that's sufficient for your first PAT - which will also select all repo access checkboxes right below.
+7. Scroll down and click `Generate Token`.
+8. Copy the generated cryptic token string (it starts like `ghp_<lost of letters and numbers>`) and store it in your password safe (or for direct use in your clipboard). You won't have access to that string later, so donn't loose it. However, you can generate new tokens any time you want.
+
+Ok, lets use the generated token - it will be used everytime you copy data from github to your computer (clone, fetch, pull), or send data to github (push). But you need to store it just once in the Windows Credential Manager. We will show you how:
+
+1. Open a powershell command line (need'nt be elevated). And type the following commands:
+
+   ```powerhsell
+   cd ~
+   mkdir repos
+   cd repos
+   git clone https://github.com/litec-lectures/litec-workspace.git
+   ```
+
+   Short explanation:
+   - first command `cd ~` (change directory) switches you to your home directory
+   - 2nd command `mkdir` (make directory) creates a new folder in your home directory called `repos` (short for repositories)
+   - 3rd command `cd repos` switches to the repos directory
+   - 4th commanf `git clone ...` copies/clones this repository you are currently looking at to your computer in the folder `repos`
+
+2. After the last step a small github window should pop up asking for your credentials, and you fill out the empty field with your personal access token (hopefully still in the clipboard!). If you no longer have your token, you just need to create a new one (follow steps above).
+3. Finally! Now we are really DONE!
+4. Also, read on, if you want to know:
    - What is git? (Version control system)
    - Basic usage of git
    - Basic usage of github
@@ -74,4 +111,3 @@ draft: true
 At the moment visit the public repository [git-intro of HASP](https://github.com/litec-hasp/git-intro) to learn more about git and github.
 
 ---
-
