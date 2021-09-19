@@ -12,7 +12,7 @@ draft: false
 1. Elevated powershell console:
 
    ```powershell
-   choco install android studio -y
+   choco install androidstudio -y
    ```
 
    This might take some time...
