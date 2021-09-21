@@ -13,7 +13,7 @@ To ensure that every student has the same software version (and the same install
 1. Open an elevated powershell CLI and install the base system:
 
    ```powershell
-   choco install visualstudio2019-installer visualstudio2019community -y
+   choco install visualstudio-installer visualstudio2019community -y
    ```
 
    Wait some time and (worst case scenario) restart your computer.
