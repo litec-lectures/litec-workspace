@@ -8,12 +8,12 @@ draft: true
 
 # Visual Studio Setup
 
-Once again to ensure that every student has the same software version (and the same installation folder), we will install Visual Studio by using the package manager chocolatey.
+To ensure that every student has the same software version (and the same installation folder), we will install Visual Studio by using the package manager chocolatey.
 
 1. Open an elevated powershell CLI and install the base system:
 
    ```powershell
-   choco install visualstudio2019-installer visualstudio2019community -y
+   choco install visualstudio-installer visualstudio2019community -y
    ```
 
    Wait some time and (worst case scenario) restart your computer.

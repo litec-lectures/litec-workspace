@@ -48,7 +48,7 @@ The setup of WSL2 is the tricky part (but definitely doable).
 
 My personal preference to work with docker is VS Code (and some plugins), but you can use any other editor and use Docker-Desktop directly for container and image management.
 
-If you are going to join my crew - start up VS Code - it worth the trip.
+If you are going to join my crew - start up VS Code - it's worth the trip.
 
 1. Start VS Code
 2. Open a "docker-directory" e.g. `D:\docker`

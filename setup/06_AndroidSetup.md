@@ -12,7 +12,7 @@ draft: false
 1. Elevated powershell console:
 
    ```powershell
-   choco install android studio -y
+   choco install androidstudio -y
    ```
 
    This might take some time...
@@ -22,7 +22,7 @@ draft: false
    - Light or dark mode is up to you
    - Click `Finish`and wait...
 
-   These steps install a SDK (software Development Kit), an emulator and emulation Accelerator. Tools needed for Android development.
+   These steps install a SDK (software Development Kit), an emulator and emulation accelerator - all tools needed for Android development.
 
 3. Close the Android Studio start window (or try it our yourself a bit).
 4. You are DONE!

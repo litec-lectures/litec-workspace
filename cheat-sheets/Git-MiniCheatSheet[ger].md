@@ -50,7 +50,7 @@ git push
 
 Bei `git add` kann auch im Bedarfsfall der Platzhalter `*` verwendet werden, wenn alle Dateien im Verzeichnis hinzugefügt  werden sollen.
 
-Wurden Datein verschoben oder gelöscht, die bereits in der Versionsverwlatung aufgenommen wurdne, dann ist es notwendig diese mit einem `remove`-Befehl (`rm`) wieder aus der Versionsverwaltung zu nehmen (Gegenteil von `add`):
+Wurden Dateien verschoben oder gelöscht, die bereits in der Versionsverwaltung aufgenommen wurden, dann ist es notwendig diese mit einem `remove`-Befehl (`rm`) wieder aus der Versionsverwaltung zu nehmen (Gegenteil von `add`):
 
 ```bash
 git rm [file(s)]

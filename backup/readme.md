@@ -46,7 +46,7 @@ The following links give just some ideas how to store images on github (and to p
 
 ### Alternative - PowerShellForGitHub Module
 
-Use <https://github.com/microsoft/PowerShellForGitHub> as basis - makes life much easier (but uses REST API). For Setup follow the Installation and Configuration steps from the readme there. Here the short version:
+Use <https://github.com/microsoft/PowerShellForGitHub> as base - makes life much easier (but uses REST API). For Setup follow the Installation and Configuration steps from the readme there. Here the short version:
 
 1. `Install-Module -Name PowerShellForGitHub -Scope CurrentUser`
 2. Create a new API token by going to <https://github.com/settings/tokens/new> (provide a description and check any appropriate scopes).
