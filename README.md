@@ -2,7 +2,7 @@
 author: hasp
 date: 20210918
 topics: computer setup, package manager, editor, git, IDE, CLI
-version: 0.2
+version: 0.3
 draft: false
 ---
 
@@ -22,10 +22,12 @@ A repository to present all relevant information for IT (and maybe other) studen
 
 ## 1 Overview
 
+> **This overview just informs you about the tools you are going to install. The setup steps are shown in chapter 3 below!**
+
 The typical IT student of the Linzer Technikum is going to use the following tools in his career:
 
-1. Packagemanager: [chocolatey](https://chocolatey.org/install) - **This tool is used to install ALL necessary software, so there is no need to download installers from webpages!**
-2. Markdown editor: [Typora](https://typora.io/)
+1. Packagemanager: [winget](https://github.com/microsoft/winget-cli) - **This tool is used to install ALL necessary software, so there is no need to download installers from webpages!**
+2. Markdown editor: [MarkText](https://github.com/marktext/marktext) or use Visual Studio Code (see below)
 3. General purpose editor (also good for markdown): [Visual Studio Code](https://code.visualstudio.com/)
    - This editor is going to be our "swiss army knife"  - **GET USED TO IT!**
 4. Version Control System (VCS): [git](https://git-scm.com/) (versioning tool) and [github](https://github.com/) (SaaS - Software as a Service)
@@ -62,11 +64,10 @@ If you read anywhere within the text a phrase like *"open a powershell console a
 
 ## 3 Setup
 
-> :warning: If at any time during the setup process chocolatey informs you that  a package is already installed, then perform an UPGRADE instead of an install: `choco upgrade <software-package> -y`
+> :warning: If parts of the below mentioned software packages are already installed (check for example with `winget upgrade`), then use the command `winget upgrade <package-Id>` instead of  `winget install <package-Id>`.
 
 0. Check if your Window 10 Version is 20H2 or newer - if not perform a [Windows update](https://support.microsoft.com/en-us/windows/update-windows-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a).
-1. Now start with [Chocolatey setup](./setup/00_ChocoInstall.md) - the installation guide for the package manager.
-   - It also contains information about the base packages everyone needs (e.g. Typora and vscode).
+1. Now start with [Basic Setup](./setup/00_BasicToolsSetup.md) - it contains information about the base packages everyone needs (e.g. a markdown editor and vscode).
 2. After that it depends on the grade you are in:
    - **2nd grade students** - perform all steps of the following documents:
      - [Git and GitHub setup](./setup/01_GitSetup.md)
@@ -85,4 +86,3 @@ Some recommended links to various topics:
 
 - CLI - Command Line Usage: [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial/basics)
 - Windows 10 App cleanup: [Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
-- more stuff might follow...
