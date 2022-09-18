@@ -1,7 +1,7 @@
 ---
 author: hasp
-date: 20210919
-version: 0.1
+date: 20220918
+version: 0.2
 draft: false
 ---
 
@@ -9,10 +9,10 @@ draft: false
 
 > That one is fairly easy to setup!
 
-1. Elevated powershell console:
+1. Elevated PowerShell console:
 
    ```powershell
-   choco install androidstudio -y
+   winget install Google.AndroidStudio
    ```
 
    This might take some time...

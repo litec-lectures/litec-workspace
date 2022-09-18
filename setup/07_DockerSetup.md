@@ -1,19 +1,21 @@
 ---
 author: hasp
-date: 20210919
-version: 0.0.1 - absolutely not proof-read
+date: 20220918
+version: 0.0.2 - absolutely not proof-read
 draft: true
 ---
 
-> BEWARE! DRAFT! DRAFT! DRAFT! DRAFT! DRAFT! DRAFT! DRAFT! DRAFT! DRAFT!
+> BEWARE! STILL A DRAFT!
 
 # Docker Desktop @ Win10 Install (with WSL2)
 
 ## Preparation Steps
 
-1. Install [chocolatey](https://chocolatey.org/install).
-2. `choco install docker-desktop -y`
-3. log out and log in again / or restart pc
+Open an elevated PowerShell console:
+
+```powershell
+winget install Docker.DockerDesktop
+```
 
 ## Setup WSL2
 

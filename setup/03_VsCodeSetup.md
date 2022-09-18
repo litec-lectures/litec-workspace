@@ -1,8 +1,8 @@
 ---
 author: hasp
-date: 20210915
+date: 20220918
 topics: setup, win, vs code
-version: 0.1
+version: 0.2
 draft: false
 ---
 
@@ -11,7 +11,7 @@ draft: false
 If you haven't done that step so far, open an elevated powershell CLI, and install Visual Studio Code:
 
 ```powershell
-choco install vscode -y
+winget install Microsoft.VisualStudioCode
 ```
 
 The basic installation is DONE!
@@ -71,7 +71,7 @@ code --install-extension ms-vscode.cpptools
 # powershell development
 code --install-extension ms-vscode.powershell
 
-# arduino (should be installed via choco!)
+# arduino
 code --install-extension vsciot-vscode.vscode-arduino
 
 # alternative for arduino / microcontroller development
@@ -80,14 +80,14 @@ code --install-extension platformio.platformio-ide
 # vs liveshare (team / pair programming)
 code --install-extension ms-vsliveshare.vsliveshare-pack
 
-# CVS visualization
+# CSV visualization
 code --install-extension mechatroner.rainbow-csv
 
 # vscode editor color management
 code --install-extension johnpapa.vscode-peacock
 ```
 
-## Additonal Information
+## Additional Information
 
 - If you want to learn more about using vs code from the CLI, then see [VS Code CLI commands](https://code.visualstudio.com/docs/editor/command-line).
 

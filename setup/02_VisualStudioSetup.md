@@ -1,46 +1,66 @@
 ---
 author: hasp
-date: 20210919
+date: 20220918
 topics: setup, win, visual studio
-version: 0.2
-draft: true
+version: 0.3
+draft: false
 ---
 
 # Visual Studio Setup
 
-To ensure that every student has the same software version (and the same installation folder), we will install Visual Studio by using the package manager chocolatey.
+To ensure that every student has the same software version (and the same installation folder), we will install Visual Studio by using the package manager `winget`.
 
-1. Open an elevated powershell CLI and install the base system:
+*The installation will download a lot of data and will take a lot of time! We are talking about 8 GB or more and installation time of at least 5 min (fast system!) or more!*
 
-   ```powershell
-   choco install visualstudio-installer visualstudio2019community -y
-   ```
+There are different install variants - depending on what you need - talk to your SEW teacher!
 
-   Wait some time and (worst case scenario) restart your computer.
+## Base Installation - C/C++
 
-2. (If a reboot was performed reopen elevated powershell CLI.)
-3. Install the Managed Desktop Development Workload:
+> **For 1st grade students!**
 
-   ```powershell
-   choco install visualstudio2019-workload-manageddesktop --package-parameters "--passive" -y
-   ```
+```powershell
+winget install Microsoft.VisualStudio.2019.Community --silent --override "--wait --quiet --addProductLang En-us --add Microsoft.VisualStudio.Workload.NativeDesktop"
+```
 
-    This workload is needed for C# GUI development (WPF and Winforms).
+## Standard Installation - C# and C/C++
 
-4. **[OPTIONAL]** Install the VCTools:
+> **For 2nd grade students!**
 
-   ```powershell
-   choco install visualstudio2019-workload-vctools --package-parameters "--passive" -y
-   ```
+```powershell
+winget install Microsoft.VisualStudio.2019.Community --silent --override "--wait --quiet --addProductLang En-us --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.ManagedDesktop"
+```
+## Extended Installation - ASP.Net, C#, and C/C++
 
-    The VCTools are used for native C and C++ development.
+> **For 4th grade students!**
 
-5. **[OPTIONAL]** Install the Build Tools:
+```powershell
+winget install Microsoft.VisualStudio.2019.Community --silent --override "--wait --quiet --addProductLang En-us --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb"
+```
 
-   ```powershell
-   choco install visualstudio2019buildtools --package-parameters "--passive" -y
-   ```
+---
 
-    The Visual Studio Build Tools allows you to build native and managed applications without requiring the Visual Studio IDE. You can use the command line instead.
+## Some Additional Information
 
-6. You are DONE!
+### Visual Studio 2022 [OPTIONAL]
+
+If you additionally want to use the 2022 Version of Visual Studio - you just have to replace the year `2019` in the install commands by `2022`. It is possible to have both versions installed. **BEWARE! This occupies a lot of GBs of SSD space!**. Example of extended Installation:
+
+```powershell
+winget install Microsoft.VisualStudio.2022.Community --silent --override "--wait --quiet --addProductLang En-us --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb"
+```
+
+### On Workloads
+
+Those are visual studio collections for different programming tasks. For a full List see: [Visual Studio workload and component IDs | Microsoft Learn](https://learn.microsoft.com/en-us/visualstudio/install/workload-and-component-ids?view=vs-2019)
+
+The following workloads are of interest for development on our school:
+
+- *Microsoft.VisualStudio.Workload.NativeDesktop* (C/C++ development - for 1st grade students and up)
+- *Microsoft.VisualStudio.Workload.ManagedDesktop* (C# development - for 2nd grade students and up)
+- *Microsoft.VisualStudio.Workload.NetWeb* (ASP.Net web development - for 4th grade students)
+
+### Additional CLI Parameters for Installation
+
+See: [Command-line parameter examples for installation - Visual Studio (Windows) | Microsoft Learn](https://learn.microsoft.com/en-us/visualstudio/install/command-line-parameter-examples?view=vs-2019)
+
+and [Alexandre Nédélec - Customize your applications when installing them with winget (techwatching.dev)](https://www.techwatching.dev/posts/winget-override)

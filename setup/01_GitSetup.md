@@ -1,9 +1,9 @@
 ---
 author: hasp
-date: 20210919
+date: 20220918
 topics: setup, win, git, github
-version: 0.2
-draft: true
+version: 0.3
+draft: true (token needs rework)
 ---
 
 # GIT - Version Control System
@@ -19,7 +19,7 @@ draft: true
 2. Run the following command within the console:
 
    ```powershell
-   choco install git -y
+   winget install Git.Git
    ```
 
 3. Close and reopen the  elevated PowerShell console.
@@ -96,7 +96,11 @@ Ok, lets use the generated token - it will be used everytime you copy data from 
    - 4th command `git clone ...` copies/clones this repository you are currently looking at to your computer in the folder `repos`
 
 2. After the last step a small github window should pop up asking for your credentials, and you fill out the empty field with your personal access token (hopefully still in the clipboard!). If you no longer have your token, you just need to create a new one (follow steps above).
+
+   Alternative: use Browser Login.
+
 3. Finally! Now we are really DONE!
+
 4. Also, read on, if you want to know:
    - What is git? (Version control system)
    - Basic usage of git

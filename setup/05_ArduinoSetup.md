@@ -1,7 +1,7 @@
 ---
 author: hasp
-date: 20210919
-version: 0.1
+date: 20220918
+version: 0.2
 draft: false
 ---
 
@@ -13,7 +13,8 @@ draft: false
 2. Elevated powershell console:
 
    ```powershell
-   choco install arduino vscode-arduino -y
+   winget install arduino
+   code --install-extension vsciot-vscode.vscode-arduino
    ```
 
 3. You are DONE! (Rest will be discussed during lessons.)

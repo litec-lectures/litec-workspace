@@ -185,5 +185,17 @@ winget install Oracle.VirtualBox
 winget install VMware.WorkstationPlayer
 ```
 
+---
+
+### `winget`- GUI and Package Search Online  [TOTALLY OPTIONAL]
+
+1. If you need a GUI to install and uninstall packages - have a look [martinet101/WingetUI: WingetUI: a package manager for Winget and Scoop (github.com)](https://github.com/martinet101/WinGetUI).
+
+   ```powershell
+   winget install SomePythonThings.WingetUIStore
+   ```
+
+2. If you want an online graphical search (with some package info) try https://winget.run/.
+
 
 
