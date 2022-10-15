@@ -22,7 +22,7 @@ draft: true (token needs rework)
    winget install Git.Git
    ```
 
-3. Close and reopen the  elevated PowerShell console.
+3. Close and reopen the  elevated PowerShell console (to update environmetal vairables).
 
 4. Perform the following two  commands - replace `<fullname>` with your name (whitespaces are ok), and `<email>` with your LiTec email address.
 
@@ -33,8 +33,20 @@ draft: true (token needs rework)
 
    More information on a first setup can be found on: [First Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
 
-5. Your are NEARLY done!
-6. Continue below to create and setup your github.com user account.
+
+## Editor (vscode)
+
+If you you are going to use vscode you can consider to use it as your main editor for git:
+
+  ```bash
+  git config --global core.editor "code --wait"
+  ```
+
+## Check Settings
+
+Check all your settings using `git config --list`
+
+---
 
 ## GitHub Setup
 
@@ -63,11 +75,11 @@ draft: true (token needs rework)
 
 ---
 
-## Personal Access Token (PAT) for GitHub
+## External Access
 
-**Ok, ok, I confess - I lied!**
+### Personal Access Token (PAT) for GitHub [OPTIONAL]
 
-You are not done yet! For external access to your github repositories you need to setup a PAT (Personal Access Token) for authentication.
+One way for external access to your github repositories is to create a PAT (Personal Access Token) for authentication.
 
 1. (Re)visit github.com (sign in - if you aren't already), and click on the upper right corner on your avatar.
 2. Choose `Settings`.
