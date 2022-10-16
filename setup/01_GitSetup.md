@@ -75,7 +75,7 @@ Check all your settings using `git config --list`
 
 ---
 
-## External Access
+## Credentials and External Access
 
 ### Personal Access Token (PAT) for GitHub [OPTIONAL]
 
