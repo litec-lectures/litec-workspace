@@ -69,6 +69,9 @@ If you read anywhere within the text a phrase like *"open a powershell console a
 0. Check if your Window 10 Version is 20H2 or newer - if not perform a [Windows update](https://support.microsoft.com/en-us/windows/update-windows-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a).
 1. Now start with [Basic Setup](./setup/00_BasicToolsSetup.md) - it contains information about the base packages everyone needs (e.g. a markdown editor and vscode).
 2. After that it depends on the grade you are in:
+   - **1st grade students** - if you performed [Basic Setup](./setup/00_BasicToolsSetup.md) you are done.
+     - OPTIONAL: (please discuss this with your teacher): [Visual Studio Code setup](./setup/03_VsCodeSetup.md)
+     - OPTIONAL: (please discuss this with your teacher): [Visual Studio setup](./setup/02_VisualStudioSetup.md)
    - **2nd grade students** - perform all steps of the following documents:
      - [Git and GitHub setup](./setup/01_GitSetup.md)
      - [Visual Studio setup](./setup/02_VisualStudioSetup.md)
