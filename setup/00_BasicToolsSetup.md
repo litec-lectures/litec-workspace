@@ -30,11 +30,11 @@ winget
 
 > **Most of the time you will just use those five commands:**
 >
-> - `install    Installs the given package`
-> - `search     Find and show basic info of packages`
-> - `list       Display installed packages`
-> - `upgrade    Shows and performs available upgrades`
-> - `uninstall  Uninstalls the given package`
+> - `install` - Installs the given package
+> - `search` - Find and show basic info of packages
+> - `list` - Display installed packages
+> - `upgrade` - Shows and performs available upgrades
+> - `uninstall`- Uninstalls the given package
 
 ---
 
