@@ -18,6 +18,13 @@ To ensure that all students have the same setup on their computers, a package ma
 
 If you want to find out more about `winget` visit [microsoft/winget-cli: Windows Package Manager CLI (aka winget) (github.com)](https://github.com/microsoft/winget-cli).
 
+---
+
+> **WINGET not found?**<br>
+> Just open up Microsoft Store and search for "App Installer"and install that tool. That's it!
+
+---
+
 ### `winget` Usage
 
 To see a list of all important commands just open up a Command Line Interface (CLI), for example a PowerShell console (right click on your windows start symbol and choose `Windows PowerShell` or `Windows PowerShell (Admin)`), and then just type `winget` :
@@ -92,11 +99,11 @@ Alternatively one can try to upgrade all packages by:
 winget upgrade --all
 ```
 
-That's it! 
+That's it!
 
 ## Basic Installation
 
-Once gain start a PowerShell console (elevated or not - thats up to you, I would recommend the `Admin` variant) and keep it open during the installation steps below.
+Once gain start a PowerShell console (elevated or not - thats up to you) and keep it open during the installation steps below.
 
 ---
 
@@ -107,6 +114,8 @@ winget install Microsoft.VisualStudioCode
 ```
 
 Visual Studio Code (short: vs code) is THE editor for software developers for nearly EVERTHING. Nowadays a developer does not need to install any other IDEs (Integrated Development Environments) to get work done. This one might be sufficient for nearly everything. Give it a try!
+
+For fine-tuning vscode see [03_VsCodeSetup.md](./03_VsCodeSetup.md).
 
 ---
 
@@ -122,7 +131,7 @@ This package is recommended, however one can also use vs code for markdown docum
 
 #### MarkText Setup
 
-MarkText needs some finetuning for a smooth usage:
+MarkText needs some fine-tuning for a smooth usage:
 
 1. Start MarkText
 2. Open Preferences (`Menu -> File -> Preferences` or `Ctrl + ,`)
@@ -131,8 +140,8 @@ MarkText needs some finetuning for a smooth usage:
    3. **Image**:
       - Default Action: *Move to designated local folder*
       - Activate *Prefer relative assets folder*
-      - Relative image folder name: `img` or `_img` or `assets` or `res` (resource)
-   4. Consider to use GitHub as ImageUploader [OPTIONAL]
+      - Relative image folder name: `_img` (recommended) or `img` or `assets` or `res` (resource)
+   4. [OPTIONAL] Consider to use GitHub as ImageUploader.
 3. Start writing with Mark Text:
    - Most important character: `@` at beginning of a paragraph - shows you all possible options
    - **BEWARE!** Not all features are GitHub compatible!
