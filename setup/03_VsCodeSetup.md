@@ -2,7 +2,7 @@
 author: hasp
 date: 20220918
 topics: setup, win, vs code
-version: 0.2
+version: 0.3
 draft: false
 ---
 
@@ -33,6 +33,9 @@ Open a CLI, and copy the extensions you want to install line by line.
 ### Must-Have Extensions
 
 ```powershell
+# vscode pets (hmmm, is this really a must-have?!?)
+code --install-extension tonybaloney.vscode-pets
+
 # Git / GitHub support
 code --install-extension eamodio.gitlens
 
@@ -60,12 +63,12 @@ code --install-extension ms-azuretools.vscode-docker
 
 ```powershell
 # markdown
-code --install-extension DavidAnson.vscode-markdownlint
-code --install-extension yzhang.markdown-all-in-one
+code --install-extension bierner.github-markdown-preview
+
+# REST and GraphQL client
+code --install-extension humao.rest-client
 
 # c/c++ programming
-code --install-extension danielpinto8zz6.c-cpp-compile-run      
-code --install-extension danielpinto8zz6.c-cpp-project-generator
 code --install-extension ms-vscode.cpptools
 
 # powershell development
