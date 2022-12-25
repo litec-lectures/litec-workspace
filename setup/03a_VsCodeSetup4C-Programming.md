@@ -50,7 +50,7 @@ We will use the mingw package within the [msys2](https://www.msys2.org/) environ
    ```powershell
    winget install msys2.msys2
    ```
-   
+
    This installed the base package, now we need to install he tools for c programming.
 
 2. Use Windows Search to open up an msys2 console (search for `msys2 msys`). Open up *that* program which is another CLI. Perform the following command (and select `all` when asked):
@@ -68,8 +68,16 @@ We will use the mingw package within the [msys2](https://www.msys2.org/) environ
    3. **C-Compiler**: Select `New` and add the Mingw-w64 destination folder path `C:\msys64\mingw64\bin` to the system path.
    4. **Make Tool**: Select `New` once again and add `C:\msys64\usr\bin` to the system path.
 
-      > :warning: This gives access to a lot of unix tools under windows (like `touch`, `wget`, `grep`, ...) but might interfere with other installed software packages. Always consider this warning when you have some strange behavior on your system!
+      > :warning: This gives access to a lot of unix tools under windows (like `touch`, `wget`, `grep`, `awk`, `sed` ...) but might interfere with other installed software packages. Always consider this warning when you have some strange behavior on your system!
 
     5. Select OK to save the updated PATH. You will need to reopen any console windows for the new PATH location to be available.
 
-4. [OPTIONAL] If you want to be sure your everything is setup the right way, just follow this [link](https://code.visualstudio.com/docs/languages/cpp#_hello-world) and create a `hello world` program. Take care, this is not a c project, but a c++ project.
+4. To check that your Mingw-w64 tools are correctly installed and available, open a new CLI and type:
+
+   ```powershell
+   gcc --version
+   gdb --version
+   make --version
+   ```
+
+5. [OPTIONAL] If you want to be sure your everything is setup the right way, just follow this [link](https://code.visualstudio.com/docs/languages/cpp#_hello-world) and create a `hello world` program. Take care, this is not a c project, but a c++ project.
