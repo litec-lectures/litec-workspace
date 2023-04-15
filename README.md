@@ -35,7 +35,7 @@ The typical IT student of the Linzer Technikum is going to use the following too
 6. C# development IDE: [Visual Studio](https://visualstudio.microsoft.com/)
 7. Microcontroller: [Arduino](https://www.arduino.cc/)
 8. Android: [Android Studio](https://developer.android.com/studio/)
-9. Containerization: [Docker](https://www.docker.com/) and [Docker Desktop](https://www.docker.com/products/docker-desktop)
+9. Containerization: [Docker](https://www.docker.com/)
 
 > This list is definitely not fully populated - just the most important tools are mentioned here.
 
