@@ -13,7 +13,7 @@ draft: false
 
    ```powershell
    winget install Microsoft.OpenJDK.17 
-   winget install JetBrains.IntelliJIDEA.Community.EAP
+   winget install JetBrains.IntelliJIDEA.Community
    ```
 
 2. We also need a CLI build tool sometimes: `maven` - sadly this is not incorporated in `winget` yet - so either use [Chocolatey](https://chocolatey.org/) (only if you already installed it) by `choco install maven -y`, or see [How to Install Maven on Windows {Step-by-Step Guide} (phoenixnap.com)](https://phoenixnap.com/kb/install-maven-windows) .
