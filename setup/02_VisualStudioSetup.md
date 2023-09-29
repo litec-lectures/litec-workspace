@@ -19,7 +19,7 @@ There are different install variants - depending on what you need - talk to your
 > **For 1st grade students!**
 
 ```powershell
-winget install Microsoft.VisualStudio.2019.Community --silent --override "--wait --quiet --addProductLang En-us --add Microsoft.VisualStudio.Workload.NativeDesktop"
+winget install Microsoft.VisualStudio.2022.Community --silent --override "--wait --quiet --addProductLang En-us --add Microsoft.VisualStudio.Workload.NativeDesktop"
 ```
 
 ## Standard Installation - C# and C/C++
@@ -27,27 +27,19 @@ winget install Microsoft.VisualStudio.2019.Community --silent --override "--wait
 > **For 2nd grade students!**
 
 ```powershell
-winget install Microsoft.VisualStudio.2019.Community --silent --override "--wait --quiet --addProductLang En-us --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.ManagedDesktop"
+winget install Microsoft.VisualStudio.2022.Community --silent --override "--wait --quiet --addProductLang En-us --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.ManagedDesktop"
 ```
 ## Extended Installation - ASP.Net, C#, and C/C++
 
 > **For 4th grade students!**
 
 ```powershell
-winget install Microsoft.VisualStudio.2019.Community --silent --override "--wait --quiet --addProductLang En-us --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb"
+winget install Microsoft.VisualStudio.2022.Community --silent --override "--wait --quiet --addProductLang En-us --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb"
 ```
 
 ---
 
 ## Some Additional Information
-
-### Visual Studio 2022 [OPTIONAL]
-
-If you additionally want to use the 2022 Version of Visual Studio - you just have to replace the year `2019` in the install commands by `2022`. It is possible to have both versions installed. **BEWARE! This occupies a lot of GBs of SSD space!**. Example of extended Installation:
-
-```powershell
-winget install Microsoft.VisualStudio.2022.Community --silent --override "--wait --quiet --addProductLang En-us --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb"
-```
 
 ### On Workloads
 
