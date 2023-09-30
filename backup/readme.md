@@ -1,14 +1,69 @@
 ---
 author: hasp
-date: 20210918
-version: 0.2
-draft: true
+date: 20230930
+version: 0.3
+draft: false
 ---
 # GitHub Repository Tools and Infos
+
+## For Students
+
+Just have a look at the document [MigrateGitRepo.md](./MigrateGitRepo.md) - this is the only interesting information for you here. :wink:
+
+## For Teachers
 
 The information contained in this document (and this folder) is intended for "administrational" usage.
 If you want to backup/clone all your repositories or that of an organization - this is the right place for you.
 Otherwise you can just leave here without any regrets...
+
+## Github Classroom - Save all Assignments
+
+> Link: [Using GitHub Classroom with GitHub CLI - GitHub Docs](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/using-github-classroom-with-github-cli)
+
+By far the easiest way to create a backup of all Assignments of a github classroom assignment is by using the github cli and install the classroom plugin.
+
+### Setup
+
+
+1. Open CLI and install github cli and install classroom plugin:
+
+   ```powershell
+   winget install  GitHub.cli
+   ```
+
+2. Restart your CLI and install the plugin:
+
+   ```powershell
+   gh extension install github/gh-classroom
+   ```
+
+### Usage
+
+#### Clicking-Method
+
+1. Visit [Your Classrooms (github.com)](https://classroom.github.com/classrooms) 
+2. Choose (click) assignment 
+3. Click the green Download-Button and click `Student Repositories`
+4. Copy CLI code and paste it in your CLI
+5. DONE
+
+#### CLI Method
+
+1. Open CLI and perform:
+
+   ```powershell
+   gh classroom clone student-repos
+   ```
+
+2. Choose your classroom (arrows and enter)
+3. Choose your assignment (arrows and enter)
+4. DONE!
+
+---
+
+---
+
+> OPTIONAL STUFF below:
 
 ## Used Links
 
