@@ -12,7 +12,7 @@ A repository to present all relevant information for IT (and maybe other) studen
 
 ![Cover](./_img/O_RLY-WorkspaceCustomization.png)
 
-> The following guide has its main focus on a setup of Windows 10 machines! MacOS or linux users have to use different package managers (Mac: brew/homebrew, linux: apt, rpm, pacman,...) and install routines (and you are going to have trouble to use Visual Studio... ).
+> The following guide has its main focus on a setup of **Windows 10 (or 11)** machines!<br>MacOS or linux users have to use different package managers (Mac: brew/homebrew, linux: apt, rpm, pacman,...) and install routines (and you are going to have trouble to use Visual Studio... ).
 
 ---
 
@@ -20,41 +20,19 @@ A repository to present all relevant information for IT (and maybe other) studen
 
 ---
 
-## 1 Overview
+## 1 Mandatory Basic Knowledge
 
-> **This overview just informs you about the tools you are going to install. The setup steps are shown in chapter 3 below!**
-
-The typical IT student of the Linzer Technikum is going to use the following tools in his career:
-
-1. Packagemanager: [winget](https://github.com/microsoft/winget-cli) - **This tool is used to install ALL necessary software, so there is no need to download installers from webpages!**
-2. Markdown editor: [MarkText](https://github.com/marktext/marktext) or use Visual Studio Code (see below)
-3. General purpose editor (also good for markdown): [Visual Studio Code](https://code.visualstudio.com/)
-   - This editor is going to be our "swiss army knife"  - **GET USED TO IT!**
-4. Version Control System (VCS): [git](https://git-scm.com/) (versioning tool) and [github](https://github.com/) (SaaS - Software as a Service)
-5. Java development IDE: [Intellij Idea](https://www.jetbrains.com/idea/)
-6. C# development IDE: [Visual Studio](https://visualstudio.microsoft.com/)
-7. Microcontroller: [Arduino](https://www.arduino.cc/)
-8. Android: [Android Studio](https://developer.android.com/studio/)
-9. Containerization: [Docker](https://www.docker.com/)
-
-> This list is definitely not fully populated - just the most important tools are mentioned here.
-
----
-
-## 2 Mandatory Basic Knowledge
-
-### 2.1 WtH (What the Hell) is an "*Elevated PowerShell Console*"?
+### WtH (What the Hell) is an "*Elevated PowerShell Console*"?
 
 If you read anywhere within the text a phrase like *"open a powershell console as administrator"*, *"start an elevated powershell console"*, or *"within an elevated powershell console"* - then you need to perform the following steps:
 
-1. Right Click on the Windows Start-Menu Icon - normally positioned at the bottom left of your Windows 10 system.
-2. Choose `WindowsPowerShell (Admin)` entry of the context menu.
-3. Click on `Yes`.
-4. DONE!
+**Open the search field, type in `powershell` and choose `Run as Adminstrator`.** DONE!
 
-**Alternative:**
-
-- Open the search field, type in `powershell` and choose `Run as Adminstrator`.
+> Alternative:
+>
+> 1. Right Click on the Windows Start-Menu Icon - normally positioned at the bottom left of your Windows system.
+> 2. Choose `WindowsPowerShell (Admin)` entry of the context menu.
+> 3. Click on `Yes`.
 
 ---
 
@@ -62,7 +40,7 @@ If you read anywhere within the text a phrase like *"open a powershell console a
 
 ---
 
-## 3 Setup
+## 2 Setup
 
 > :warning: If parts of the below mentioned software packages are already installed (check for example with `winget upgrade`), then use the command `winget upgrade <package-Id>` instead of  `winget install <package-Id>`.
 
@@ -82,6 +60,28 @@ If you read anywhere within the text a phrase like *"open a powershell console a
    - **4th and 5th grade students** - check if you got all from the previous years and then perform:
      - [Android Development Setup](./setup/06_AndroidSetup.md)
      - [Docker Setup](./setup/07_DockerSetup.md)
+3.  You are DONE! Only if you are interested in some general information, read on...
+
+---
+
+## General Information
+
+> **This overview just informs you about the tools. The setup steps are shown in chapter 2 above!**
+
+The typical IT student of the Linzer Technikum is going to use the following tools in his career:
+
+1. Packagemanager: [winget](https://github.com/microsoft/winget-cli) - **This tool is used to install ALL necessary software, so there is no need to download installers from webpages!**
+2. Markdown editor: [MarkText](https://github.com/marktext/marktext) or use Visual Studio Code (see below)
+3. General purpose editor (also good for markdown): [Visual Studio Code](https://code.visualstudio.com/)
+   - This editor is going to be our "swiss army knife"  - **GET USED TO IT!**
+4. Version Control System (VCS): [git](https://git-scm.com/) (versioning tool) and [github](https://github.com/) (SaaS - Software as a Service)
+5. Java development IDE: [Intellij Idea](https://www.jetbrains.com/idea/)
+6. C# development IDE: [Visual Studio](https://visualstudio.microsoft.com/)
+7. Microcontroller: [Arduino](https://www.arduino.cc/)
+8. Android: [Android Studio](https://developer.android.com/studio/)
+9. Containerization: [Docker](https://www.docker.com/)
+
+> This list is definitely not fully populated - just the most important tools are mentioned here.
 
 ## 4 Additional Content and Recommendations
 
