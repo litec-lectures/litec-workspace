@@ -49,10 +49,10 @@ By far the easiest way to create a backup of all Assignments of a github classro
 
 #### CLI Method
 
-1. Open CLI and perform:
+1. Open CLI and perform (if you have more than 100 repos increase `--per-page`):
 
    ```powershell
-   gh classroom clone student-repos
+   gh classroom clone student-repos --per-page 100
    ```
 
 2. Choose your classroom (arrows and enter)
