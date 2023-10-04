@@ -150,6 +150,8 @@ MarkText needs some fine-tuning for a smooth usage:
 
 ### Windows Terminal and gsudo [RECOMMENDED!]
 
+> On Windows 111 `terminal` is already the default CLI, so just perform the 2nd command.
+
 ```powershell
 winget install Microsoft.WindowsTerminal
 winget install gerardog.gsudo
@@ -159,7 +161,7 @@ A very good tab-based terminal (CLI - command line interface) for windows users 
 
 #### Windows Terminal Setup
 
-Terminal also needs some finetuning for a smooth usage:
+Terminal also needs some fine-tuning for a smooth usage:
 
 1. Start Windows Terminal
 2. Open Settings (`Down-Arrow in tab field -> Settings` or `Ctrl + ,`)
@@ -170,11 +172,9 @@ Terminal also needs some finetuning for a smooth usage:
    4. *Starting Directory*: Check `Use parent process directory`
 4. Save Profile
 
->  You now can also start an elevated PowerShell console within Windows Terminal! :+1:
+> You now can also start an elevated PowerShell console within Windows Terminal! :+1:
 >
->  And you now have `sudo` on Windows - another "Linuxifying" step!
-
-
+> And you now have `sudo` on Windows - another "Linuxifying" step!
 
 ---
 

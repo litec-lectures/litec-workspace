@@ -2,7 +2,7 @@
 author: hasp
 date: 20210918
 topics: computer setup, package manager, editor, git, IDE, CLI
-version: 0.3
+version: 0.4
 draft: false
 ---
 
@@ -60,7 +60,7 @@ If you read anywhere within the text a phrase like *"open a powershell console a
    - **4th and 5th grade students** - check if you got all from the previous years and then perform:
      - [Android Development Setup](./setup/06_AndroidSetup.md)
      - [Docker Setup](./setup/07_DockerSetup.md)
-3.  You are DONE! Only if you are interested in some general information, read on...
+3. You are DONE! Only if you are interested in some general information, read on...
 
 ---
 
