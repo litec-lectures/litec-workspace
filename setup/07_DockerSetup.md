@@ -44,6 +44,13 @@ draft: true
 ## Setup and Install Docker within WSL
 
 > Links:
+> 
+> - THE Way to go: <https://nickjanetakis.com/blog/install-docker-in-wsl-2-without-docker-desktop>
+>   - user group setup
+>   - RECOMMENDATION: enable systemd!
+>
+> Alternatives :
+>   
 > - <https://dev.to/bartr/install-docker-on-windows-subsystem-for-linux-v2-ubuntu-5dl7>
 >   - OLD! Use that one with care!
 >   - has nice features like 
@@ -51,11 +58,7 @@ draft: true
 >     - docker group (add user)
 > - <https://docs.docker.com/engine/install/ubuntu/>
 >   - typical installation of docker on ubuntu
->   
-> - THE Way to go: <https://nickjanetakis.com/blog/install-docker-in-wsl-2-without-docker-desktop>
->   - user group setup
->   - RECOMMENDATION: enable systemd!
->   
+>  
 
 ## Tune your Workspace - VS Code
 
