@@ -1,8 +1,7 @@
 ---
 author: hasp
-date: 20220917
+date: 20240928
 topics: setup, win, package manager
-version: 0.4
 ---
 
 # Base Tools Explanations and Setup
