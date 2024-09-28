@@ -1,9 +1,7 @@
 ---
 author: hasp
-date: 20220918
+date: 20240928
 topics: setup, win, vs code
-version: 0.3
-draft: false
 ---
 
 # Visual Studio Code Setup
@@ -33,9 +31,6 @@ Open a CLI, and copy the extensions you want to install line by line.
 ### Must-Have Extensions
 
 ```powershell
-# vscode pets (hmmm, is this really a must-have?!?)
-code --install-extension tonybaloney.vscode-pets
-
 # Git / GitHub support
 code --install-extension eamodio.gitlens
 
@@ -47,9 +42,9 @@ code --install-extension streetsidesoftware.code-spell-checker-german
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 ```
 
-### Must-Have Extensions for 4th and 5th Grade
+### Must-Have Extensions for 3rd to 5th Grade
 
-Optional for 2nd and 3rd grade students.
+Optional for 2nd grade students.
 
 ```powershell
 # remote connections (ssh / container / wsl)
