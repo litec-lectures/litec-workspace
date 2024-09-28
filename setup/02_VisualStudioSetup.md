@@ -1,9 +1,7 @@
 ---
 author: hasp
-date: 20220918
+date: 20240928
 topics: setup, win, visual studio
-version: 0.3
-draft: false
 ---
 
 # Visual Studio Setup
@@ -13,14 +11,6 @@ To ensure that every student has the same software version (and the same install
 *The installation will download a lot of data and will take a lot of time! We are talking about 8 GB or more and installation time of at least 5 min (fast system!) or more!*
 
 There are different install variants - depending on what you need - talk to your SEW teacher!
-
-## Base Installation - C/C++
-
-> **For 1st grade students!**
-
-```powershell
-winget install Microsoft.VisualStudio.2022.Community --silent --override "--wait --quiet --addProductLang En-us --add Microsoft.VisualStudio.Workload.NativeDesktop"
-```
 
 ## Standard Installation - C# and C/C++
 
