@@ -2,15 +2,15 @@
 author: hasp
 date: 20220917
 topics: setup, win, package manager
-version: 0.3
-draft: false
+version: 0.4
 ---
 
 # Base Tools Explanations and Setup
 
 ## Package Manager `winget`
 
-To ensure that all students have the same setup on their computers, a package manager like `winget` (or chocolatey) is a time- and life-safer.  If your Windows 10 or 11 is up to date, then `winget` should already be installed - otherwise install it via your Microsoft Store.
+To ensure that all students have the same setup on their computers, a package manager like `winget` (or chocolatey) is a time- and life-safer.  
+If your Windows 11 (or 10) is up to date, then `winget` should already be installed - otherwise install it via your Microsoft Store.
 
 > A **package manager** or **package-management system** is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer's operating system in a consistent manner.[^wikipedia]
 >
@@ -107,7 +107,7 @@ Once gain start a PowerShell console (elevated or not - thats up to you) and kee
 
 ---
 
-### Visual Studio Code - Editor [NEEDED!]
+### Visual Studio Code - Editor [NEEDED]
 
 ```powershell
 winget install Microsoft.VisualStudioCode
@@ -119,7 +119,7 @@ For fine-tuning vscode see [03_VsCodeSetup.md](./03_VsCodeSetup.md).
 
 ---
 
-### MarkText - Markdown Editor [RECOMMENDED!]
+### MarkText - Markdown Editor [RECOMMENDED]
 
 ```powershell
 winget install MarkText.MarkText
@@ -148,9 +148,9 @@ MarkText needs some fine-tuning for a smooth usage:
 
 ---
 
-### Windows Terminal and gsudo [RECOMMENDED!]
+### Windows Terminal and gsudo [RECOMMENDED]
 
-> On Windows 111 `terminal` is already the default CLI, so just perform the 2nd command.
+> On Windows 11 `terminal` is already the default CLI, so just perform the 2nd command.
 
 ```powershell
 winget install Microsoft.WindowsTerminal
@@ -178,7 +178,7 @@ Terminal also needs some fine-tuning for a smooth usage:
 
 ---
 
-### Virtualization [TOTALLY OPTIONAL]
+### Virtualization [OPTIONAL]
 
 For management and creation of VMs (Virtual Machines).
 
@@ -196,15 +196,11 @@ winget install VMware.WorkstationPlayer
 
 ---
 
-### `winget`- GUI and Package Search Online  [TOTALLY OPTIONAL]
+### UniGetUI [OPTIONAL] 
 
-1. If you need a GUI to install and uninstall packages - have a look [martinet101/WingetUI: WingetUI: a package manager for Winget and Scoop (github.com)](https://github.com/martinet101/WinGetUI).
+If you want a graphical Package Manger for Windows - use [UniGetUI](https://www.marticliment.com/unigetui/):
 
-   ```powershell
-   winget install SomePythonThings.WingetUIStore
-   ```
-
-2. If you want an online graphical search (with some package info) try https://winget.run/.
-
-
+```powershell
+winget install MartiCliment.UniGetUI
+```
 
