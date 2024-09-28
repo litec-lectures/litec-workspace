@@ -1,7 +1,7 @@
 ---
 author: hasp
-date: 20230930
-version: 0.3
+date: 20240928
+version: 0.4
 draft: false
 ---
 # GitHub Repository Tools and Infos
@@ -61,10 +61,9 @@ By far the easiest way to create a backup of all Assignments of a github classro
 
 ---
 
----
-
-> OPTIONAL STUFF below:
-
+> [!NOTE]
+> The following topics are just here for historical reasons...
+> 
 ## Used Links
 
 ### Backup / Transfer
