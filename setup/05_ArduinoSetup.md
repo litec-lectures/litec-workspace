@@ -1,9 +1,11 @@
 ---
 author: hasp
-date: 20220918
-version: 0.2
-draft: false
+date: 20240928
+draft: true
 ---
+
+> [!CAUTION]
+> **This one is outdated - we will use vscode profiles and platform io - wait for an update!**
 
 # Arduino Setup
 
