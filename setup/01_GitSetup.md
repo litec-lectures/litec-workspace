@@ -1,8 +1,7 @@
 ---
 author: hasp
-date: 20220918
+date: 20240928
 topics: setup, win, git, github
-version: 0.3
 draft: true (token needs rework)
 ---
 
@@ -75,7 +74,15 @@ Check all your settings using `git config --list`
 
 ---
 
-## Credentials and External Access
+## WtH (What the Hell) is Git and GitHub?
+
+For in-depth information on git and github visit the public repository [HASP's git-intro](https://github.com/litec-hasp/git-intro) - a bit dated, but still ok.
+
+A short explantion in german: an absolutely [*MINI* cheat sheet](./../cheat-sheets/Git-MiniCheatSheet[ger].md) - this is just for short reminders on what to do on your daily routine.
+
+---
+
+## Credentials and External Access [OPTIONAL]
 
 ### Personal Access Token (PAT) for GitHub [OPTIONAL]
 
@@ -117,13 +124,3 @@ Ok, lets use the generated token - it will be used everytime you copy data from 
    - What is git? (Version control system)
    - Basic usage of git
    - Basic usage of github
-
----
-
-## WtH (What the Hell) is Git and GitHub?
-
-For in-depth information on git and github visit the public repository [HASP's git-intro](https://github.com/litec-hasp/git-intro) - a bit dated, but still ok.
-
-A short explantion in german: an absolutely [*MINI* cheat sheet](./../cheat-sheets/Git-MiniCheatSheet[ger].md) - this is just for short reminders on what to do on your daily routine.
-
----
