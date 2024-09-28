@@ -1,16 +1,16 @@
 ---
 author: hasp
-date: 20240420
-version: 0.2
+date: 20240928
+draft: maybe!
 ---
 
-# Docker Desktop @ Win10/11 Install (with WSL2)
+# Docker @ Win10/11 Install (with WSL2)
 
 > We won't use Docker Desktop, instead we will install everything within WSL (Windows Subsystem for Linux).
 
 ## Prerequisites
 
-1. Windows 10 should have all the latest updates installed (at least Version 22H2)
+1. Windows should have all the latest updates installed!
 2. VS Code with Remote-Extensionpack plugin (ms-vscode-remote.vscode-remote-extensionpack) is installed.
    - install VS code: `winget install vscode`
    - install plugin: `code --install-extension ms-vscode-remote.vscode-remote-extensionpack` - a meta-package for:
@@ -55,7 +55,7 @@ version: 0.2
 3. Install Docker (and compose) - you can ignore the warning from Docker about using WSL:
 
    ```bash
-   # download (and start) install script
+   # download (and start) install script (ignore the warning that we are inWSL and should use Docker Desktop)
    curl -fsSL https://get.docker.com -o get-docker.sh
    sudo sh get-docker.sh
    
