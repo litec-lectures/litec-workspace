@@ -2,9 +2,11 @@
 author: hasp
 date: 20221225
 topics: setup, win, vscode
-version: 0.1
-draft: false
+draft: true
 ---
+
+> [!CAUTION]
+>  **Msys2 / MinGW is no longer the way to go - consider to use WSL for c programming!**
 
 # Visual Studio Code Setup for C-Programming
 
