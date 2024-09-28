@@ -1,16 +1,12 @@
 ---
 author: hasp
-date: 20230930
-version: 0.1
-draft: true
-source: https://datanextsolutions.com/blog/how-to-migrate-git-repository-with-branches-and-commit-history/
+date: 20240928
+version: 0.2
 ---
 
 # How to Migrate Git Repository with Branches and Commit History
 
-> *Based on: [Migrate Git Repository with Branches and Commit History](https://datanextsolutions.com/blog/how-to-migrate-git-repository-with-branches-and-commit-history/)*
-
-If you want to migrate git repositories from one account to another (in our case from an GitHub organization like `litec-SEW2` to your personal GitHub account) perform the following steps:
+If you want to migrate git repositories from one account to another (e.g. from a GitHub organization like `litec-SEW2` to your **personal** GitHub account) perform the following steps:
 
 1. **Mirror the repository** to your local machine:
 
@@ -36,3 +32,10 @@ If you want to migrate git repositories from one account to another (in our case
    ```
 
 5. DONE! (If you want delete the local folder - it is no longer needed)
+
+---
+
+## Links / Sources
+
+- <https://www.atlassian.com/git/tutorials/git-move-repository>
+- <https://datanextsolutions.com/blog/how-to-migrate-git-repository-with-branches-and-commit-history/>
