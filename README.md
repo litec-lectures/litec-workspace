@@ -53,12 +53,14 @@ then you need to perform the following steps:
      - [Visual Studio Code setup](./setup/03_VsCodeSetup.md)
      - [Java Development Setup](./setup/04_JavaSetup.md)
    - **2nd grade students** - perform all steps of the following documents:
-     - [Visual Studio setup](./setup/02_VisualStudioSetup.md)
+     - same as 1st grade!
    - **3rd grade students** - check if you got all from 2nd grade, and additionally:
      - [Arduino Setup](./setup/05_ArduinoSetup.md)
+     - [Docker Setup](./setup/07_DockerSetup.md)
    - **4th and 5th grade students** - check if you got all from the previous years and then perform:
      - [Android Development Setup](./setup/06_AndroidSetup.md)
-     - [Docker Setup](./setup/07_DockerSetup.md)
+     - [Visual Studio setup](./setup/02_VisualStudioSetup.md)
+    
 3. You are DONE! Only if you are interested in some general information, read on...
 
 ---
